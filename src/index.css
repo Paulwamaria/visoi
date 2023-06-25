@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.funnyfonts{
+  font-family: 'Bungee Inline', cursive;
+}
+.sofia{
+  font-family:'sofia', cursive;
+}
+.navLink:hover{
+  background-color:black
+  
+}
