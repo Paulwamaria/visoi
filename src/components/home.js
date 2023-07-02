@@ -15,6 +15,10 @@ class Home extends React.Component {
 								className=" posho"
 								width='100%'
 								height='60%'/>
+							<a href="https://wa.me/254712550433" class="whatsapp_float" target="_blank" rel="noopener noreferrer">
+								<i className="fa fa-whatsapp whatsapp-icon"></i>
+							</a>
+                   
 						</div>
 						<div className="col-md-6 mb-4">
 							<ReactPlayer className='react-player' url='https://www.youtube.com/watch?v=uVJxX3sbVhc&ab_channel=MikeLess-FarmhandMike' width='100%' height='100%' controls/>
@@ -31,7 +35,7 @@ class Home extends React.Component {
 
 							<h6 className=" bg-white funnyfonts text-primary">Machines available at Visoi:</h6>
 							<ul className="text-white">
-				
+
 								<li className="ml-0">Poshomills</li>
 								<li className="ml-0">Shellers</li>
 								<li className="ml-0">Hullers</li>
