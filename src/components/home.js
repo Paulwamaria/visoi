@@ -15,6 +15,7 @@ class Home extends React.Component {
 								className=" posho"
 								width='100%'
 								height='60%'/>
+								{/* whatsapp link */}
 							<a href="https://wa.me/254712550433" class="whatsapp_float" target="_blank" rel="noopener noreferrer">
 								<i className="fa fa-whatsapp whatsapp-icon"></i>
 							</a>
@@ -24,7 +25,7 @@ class Home extends React.Component {
 							<ReactPlayer className='react-player' url='https://www.youtube.com/watch?v=uVJxX3sbVhc&ab_channel=MikeLess-FarmhandMike' width='100%' height='100%' controls/>
 						</div>
 						<div className="col-md-2 bg-primary">
-							<h5 className=" bg-white funnyfonts text-primary">What we do at Nakuru City:</h5>
+							<h5 className=" bg-white funnyfonts text-primary">ABOUT</h5>
 							<ul className="text-white">
 								<li className="ml-0">Fabrication of new agricultural machines</li>
 								<li className="ml-0">Maintainance services</li>

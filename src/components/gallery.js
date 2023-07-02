@@ -1,9 +1,15 @@
 import React from "react"
-class Gallery extends React.Component{
-    render(){
-        return(<div>
-            <p>Gallery page is under construction</p>
-        </div>)
-    }
+import Carousel from "../components/carousel"
+import CarouselPage from "./carousel"
+class Gallery extends React.Component {
+	render() {
+		return (
+			<div className="container-fluid bg-primary">
+
+				<CarouselPage/>
+
+			</div>
+		)
+	}
 }
 export default Gallery

@@ -22,3 +22,19 @@ code {
   background-color:black
   
 }
+.cardprojectContainer{
+  width: 400px;
+  height: auto;
+}
+.cardProject{
+  background-color:rgba(19, 57, 180, 0.5);
+  color:white;
+  min-height:450px;
+}
+.projimg{
+  width: 100%;
+  height: auto;
+}
+.carou{
+  max-height:70vh;
+}

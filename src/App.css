@@ -80,3 +80,11 @@
         font-size: 22px;
     }
 }
+ul{
+  list-style:none
+}
+.carouselimg{
+ 
+  max-width: 100%;
+  max-height: 50%;
+}
