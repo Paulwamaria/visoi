@@ -36,7 +36,7 @@ class Mynavbar extends React.Component {
 										</a>
 									</li>
 									<li className="nav-item text-white">
-										<a href="/" className="nav-link waves-effect waves-light">
+										<a href="https://web.facebook.com/profile.php?id=100064125221186" className="nav-link waves-effect waves-light">
 											<i className="fa fa-facebook text-white navLink"></i>
 										</a>
 									</li>
