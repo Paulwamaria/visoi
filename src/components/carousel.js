@@ -16,6 +16,7 @@ import bigChopper from "../assets/images/bigchopper.jpg";
 import chaff2 from "../assets/images/chaff2.jpg";
 import smChopper from "../assets/images/smallchopper.jpg";
 import sheller from "../assets/images/sheller1.jpeg"
+import chopperVideo from "../assets/gallery/videos/chopperVideo.mp4"
 
 const CarouselPage = () => {
 	return (
@@ -29,18 +30,23 @@ const CarouselPage = () => {
 						</p>
 						<p className="text-white mt-3">Payment on delivery!</p>
 						<p className="text-white mt-3">Free installation services!</p>
-						<a href="https://wa.me/254712550433" class="whatsapp_float" target="_blank" rel="noopener noreferrer">
+						<a href="https://wa.me/254712550433" className="whatsapp_float" target="_blank" rel="noopener noreferrer">
 							<i className="fa fa-whatsapp whatsapp-icon"></i>
 						</a>
 
 						<Blink color="black" fontSize="50" className="mt-5" text="Get your order now!!!"></Blink>
+						<a href="tel:254712550433">
+							<span className="text-white">Call</span>
+						</a>
+
+						: 254712550433
 					</div>
-					<div className="col-md-8">
+					<div className="col-md-8 bg-primary">
 						<MDBContainer>
 							<MDBCarousel activeItem={1}
 								length={7}
-								showControls={true}
-								showIndicators={true}
+								showControls={false}
+								showIndicators={false}
 								className="">
 								<MDBCarouselInner>
 									<MDBCarouselItem itemId="1" className="carou">
@@ -51,10 +57,10 @@ const CarouselPage = () => {
 											<MDBMask overlay="black-light"/>
 										</MDBView>
 										<MDBCarouselCaption>
-											<h3 className="h3-responsive ">poshomills</h3>
+											<h3 className="h3-responsive ">Poshomills</h3>
 											<a className="mx-auto mt-2" href="#servert">
 												{" "}
-												<button className="btn-info mx-auto">view Details</button>
+												<button className="text-white bg-primary mx-auto">view details</button>
 											</a>
 										</MDBCarouselCaption>
 									</MDBCarouselItem>
@@ -66,10 +72,10 @@ const CarouselPage = () => {
 											<MDBMask overlay="black-strong"/>
 										</MDBView>
 										<MDBCarouselCaption>
-											<h3 className="h3-responsive">chaffcutter</h3>
+											<h3 className="h3-responsive">Chaffcutter</h3>
 											<a className="mx-auto mt-2" href="#chaff2">
 												{" "}
-												<button className="btn-info mx-auto">view Details</button>
+												<button className="text-white bg-primary mx-auto">view details</button>
 											</a>
 										</MDBCarouselCaption>
 									</MDBCarouselItem>
@@ -81,10 +87,10 @@ const CarouselPage = () => {
 											<MDBMask overlay="black-slight"/>
 										</MDBView>
 										<MDBCarouselCaption>
-											<h3 className="h3-responsive">small chopper</h3>
+											<h3 className="h3-responsive">Small chopper</h3>
 											<a className="mx-auto mt-2" href="#smChopper">
 												{" "}
-												<button className="btn-info mx-auto">view Details</button>
+												<button className="text-white bg-primary mx-auto">view details</button>
 											</a>
 										</MDBCarouselCaption>
 									</MDBCarouselItem>
@@ -99,7 +105,7 @@ const CarouselPage = () => {
 											<h3 className="h3-responsive">Large chopper</h3>
 											<a className="mx-auto mt-2" href="#bigChopper">
 												{" "}
-												<button className="btn-info mx-auto">view Details</button>
+												<button className="text-white bg-primary mx-auto">view details</button>
 											</a>
 										</MDBCarouselCaption>
 									</MDBCarouselItem>
@@ -114,7 +120,7 @@ const CarouselPage = () => {
 											<h3 className="h3-responsive">Mixer</h3>
 											<a className="mx-auto mt-2" href="#bgMixer">
 												{" "}
-												<button className="btn-info mx-auto">view Details</button>
+												<button className="text-white bg-primary mx-auto">view details</button>
 											</a>
 										</MDBCarouselCaption>
 									</MDBCarouselItem>
@@ -129,7 +135,7 @@ const CarouselPage = () => {
 											<h3 className="h3-responsive">Maize Huller</h3>
 											<a className="mx-auto mt-2" href="#capture1">
 												{" "}
-												<button className="btn-info mx-auto">view Details</button>
+												<button className="text-white bg-primary mx-auto">view details</button>
 											</a>
 										</MDBCarouselCaption>
 									</MDBCarouselItem>
@@ -144,7 +150,7 @@ const CarouselPage = () => {
 											<h3 className="h3-responsive">Sheller</h3>
 											<a className="mx-auto mt-2" href="#capture1">
 												{" "}
-												<button className="btn-info mx-auto">view Details</button>
+												<button className="text-white bg-primary mx-auto">view details</button>
 											</a>
 										</MDBCarouselCaption>
 									</MDBCarouselItem>
@@ -152,7 +158,13 @@ const CarouselPage = () => {
 							</MDBCarousel>
 						</MDBContainer>
 					</div>
-					<div className="col-md-2"></div>
+					<div className="col-md-2">
+						<div className="mt-5">
+							<video width="100%" height="100%" controls>
+								<source src={chopperVideo} type="video/mp4"/>
+							</video>
+						</div>
+					</div>
 				</div>
 			</div>
 			{/* First container1 */}
