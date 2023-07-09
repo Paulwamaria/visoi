@@ -14,15 +14,14 @@ class Home extends React.Component {
 							<img src={Posho}
 								className=" posho"
 								width='100%'
-								height='60%'/>
-								{/* whatsapp link */}
-							<a href="https://wa.me/254712550433" class="whatsapp_float" target="_blank" rel="noopener noreferrer">
+								height='60%'/> {/* whatsapp link */}
+							<a href="https://wa.me/254712550433" className="whatsapp_float" target="_blank" rel="noopener noreferrer">
 								<i className="fa fa-whatsapp whatsapp-icon"></i>
 							</a>
-                   
+
 						</div>
 						<div className="col-md-6 mb-4">
-							<ReactPlayer className='react-player' url='https://www.youtube.com/watch?v=uVJxX3sbVhc&ab_channel=MikeLess-FarmhandMike' width='100%' height='100%' controls/>
+							<ReactPlayer className='react-player' url='https://www.youtube.com/shorts/thDHihzx3hA' width='100%' height='100%' controls/>
 						</div>
 						<div className="col-md-2 bg-primary">
 							<h5 className=" bg-white funnyfonts text-primary">ABOUT</h5>
