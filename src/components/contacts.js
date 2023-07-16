@@ -59,11 +59,11 @@ class Contacts extends React.Component {
 						</h4>
 						<h6>
 							Position: Chief Engineer</h6>
-						<a href="tel:254712550433">
+						<a href="tel:0712550433">
 							Call
 						</a>
 
-						: 254712550433
+						: 0712550433
 						<a href="mailto:Mburujosehp383@gmail.com" className="nav-link waves-effect waves-light">
 
 							<span className="text-info">Email:
