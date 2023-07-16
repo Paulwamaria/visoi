@@ -6,6 +6,7 @@ import sheller from "../assets/images/sheller1.jpeg"
 import chuffCutter from "../assets/images/chaffcutter.jpg"
 import chuff from "../assets/images/chaff2.jpg"
 import happyClient from "../assets/images/capture1.jpg"
+import double from "../assets/gallery/combined/double.jpg"
 
 const Footer = ()=>{
     return (<MDBFooter className="font-small bg-primary text-white">
@@ -19,7 +20,7 @@ const Footer = ()=>{
                 </MDBCol>
                 <MDBCol md="2">
                     <div className="tinyDiv">
-                        <img className="img-responsive mt-2 tinyImage" src={sheller} />
+                        <img className="img-responsive mt-2 tinyImage" src={double} />
                     </div>
                 </MDBCol>
                 <MDBCol md="2">
