@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import ReactPlayer from "react-player/lazy";
-import heroMachine from "../assets/images/combined01.jpg";
+import heroMachine from "../assets/images/huller05.jpg";
 import poshoCollection from "../assets/images/poshoCollection.jpg";
 import chaffCutter from "../assets/images/chaff2.jpg";
 import shellerCollection from "../assets/images/shellerCollection.jpg";
