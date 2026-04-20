@@ -120,36 +120,3 @@ class Home extends React.Component {
 }
 
 export default Home;
-									<i className="fa fa-facebook text-white navLink ">acebook:
-									</i>
-									Visoi Machinery
-								</a>
-							</li>
-							<li className="bg-primary text-white">
-								<a href="https://instagram.com/josephmburungethe?igshid=ZDc4ODBmNjlmNQ==" className="nav-link waves-effect waves-light">
-									<i className="fa fa-instagram text-white navLink">
-										Instagram:
-									</i>
-									josephmburungethe
-								</a>
-							</li>
-							<li className="bg-primary text-white">
-								<a href="https://youtube.com/@josephmburu9101" className="nav-link waves-effect waves-light">
-									<i className="fa fa-youtube-play text-white navLink">
-										Youtube:
-									</i>
-									@josephmburu9101
-								</a>
-							</li>
-
-						</ul>
-						</div>
-					</div>
-
-				</div>
-			</Fragment>
-		)
-	}
-}
-
-export default Home;

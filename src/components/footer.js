@@ -1,8 +1,7 @@
 import React from "react"
-import {MDBCol, MDBContainer, MDBRow, MDBFooter} from 'mdbreact'
+import {MDBCol, MDBContainer, MDBRow} from 'mdbreact'
 import smChopper from "../assets/images/smallchopper.jpg"
 import bgChopper from "../assets/images/bigchopper.jpg"
-import sheller from "../assets/images/sheller1.jpeg"
 import chuffCutter from "../assets/images/chaffcutter.jpg"
 import chuff from "../assets/gallery/combined/double.jpg"
 import happyClient from "../assets/images/capture1.jpg"
