@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Contacts from "./contacts"
 import Home from "./home"
 import Gallery from "./gallery"
+import About from "./about"
 import {Navbar, Nav, Container} from "react-bootstrap"
 import "../styles/navbar.css"
 
@@ -27,6 +28,9 @@ class Mynavbar extends React.Component {
 									</Nav.Link>
 									<Nav.Link href="/gallery" className="nav-item-link">
 										<i className="fa fa-images mr-2"></i>Gallery
+									</Nav.Link>
+									<Nav.Link href="/about" className="nav-item-link">
+										<i className="fa fa-info-circle mr-2"></i>About
 									</Nav.Link>
 									<Nav.Link href="/contacts" className="nav-item-link">
 										<i className="fa fa-envelope mr-2"></i>Contact
@@ -54,6 +58,8 @@ class Mynavbar extends React.Component {
 							element={<Home/>}></Route>
 						<Route exact path="/gallery"
 							element={<Gallery/>}></Route>
+						<Route exact path="/about"
+							element={<About/>}></Route>
 						<Route exact path="/contacts"
 							element={<Contacts/>}></Route>
 					</Routes>

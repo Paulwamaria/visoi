@@ -1,0 +1,265 @@
+/* ============================================
+   ABOUT PAGE
+   ============================================ */
+
+.about-page {
+  background-color: var(--light-bg, #f6f8f5);
+  min-height: 100vh;
+}
+
+.about-header {
+  background: linear-gradient(135deg, var(--primary-color, #19624f) 0%, var(--primary-light, #2e8b70) 100%);
+  color: white;
+  overflow: hidden;
+  padding: 86px 30px;
+  position: relative;
+  text-align: center;
+}
+
+.about-header::before,
+.about-header::after {
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: 50%;
+  content: '';
+  position: absolute;
+  z-index: 0;
+}
+
+.about-header::before {
+  height: 360px;
+  right: -120px;
+  top: -150px;
+  width: 360px;
+}
+
+.about-header::after {
+  bottom: -130px;
+  height: 280px;
+  left: -90px;
+  width: 280px;
+}
+
+.about-header .container {
+  position: relative;
+  z-index: 1;
+}
+
+.about-kicker {
+  color: var(--accent-color, #f0a128);
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+
+.about-title {
+  color: white;
+  font-size: 3.2rem;
+  font-weight: 900;
+  line-height: 1.12;
+  margin: 0 auto 18px;
+  max-width: 780px;
+}
+
+.about-subtitle {
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 1.15rem;
+  line-height: 1.8;
+  margin: 0 auto;
+  max-width: 720px;
+}
+
+.about-story,
+.about-values,
+.about-cta {
+  padding: 80px 30px;
+}
+
+.about-story {
+  background-color: var(--surface-color, #ffffff);
+}
+
+.about-story-image,
+.about-cta-image {
+  border-radius: 8px;
+  box-shadow: var(--shadow-lg, 0 8px 24px rgba(0, 0, 0, 0.2));
+  display: block;
+  height: 100%;
+  max-height: 440px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.about-story-content h2,
+.about-section-heading h2,
+.about-cta h2 {
+  color: var(--dark-text, #1f2d2a);
+  font-size: 2.25rem;
+  font-weight: 850;
+  line-height: 1.18;
+  margin-bottom: 18px;
+}
+
+.about-story-content p,
+.about-cta p {
+  color: var(--gray-text, #5d6b67);
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.about-service-list {
+  list-style: none;
+  margin: 24px 0 0;
+  padding: 0;
+}
+
+.about-service-list li {
+  border-bottom: 1px solid var(--border-color, #dde6e1);
+  color: var(--dark-text, #1f2d2a);
+  font-weight: 650;
+  padding: 13px 0;
+}
+
+.about-service-list li::before {
+  color: var(--success-color, #2f8f46);
+  content: '\f058';
+  font-family: FontAwesome;
+  margin-right: 10px;
+}
+
+.about-values {
+  background-color: var(--light-bg, #f6f8f5);
+}
+
+.about-section-heading {
+  margin: 0 auto 42px;
+  max-width: 720px;
+  text-align: center;
+}
+
+.about-value-card {
+  background-color: var(--surface-color, #ffffff);
+  border-left: 4px solid var(--secondary-color, #d95d27);
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm, 0 2px 8px rgba(0, 0, 0, 0.1));
+  height: 100%;
+  padding: 28px;
+  transition: var(--transition, all 0.3s ease);
+}
+
+.about-value-card:hover {
+  box-shadow: var(--shadow-lg, 0 8px 24px rgba(0, 0, 0, 0.15));
+  transform: translateY(-4px);
+}
+
+.about-value-card i {
+  color: var(--primary-color, #19624f);
+  font-size: 2rem;
+  margin-bottom: 18px;
+}
+
+.about-value-card h3 {
+  color: var(--dark-text, #1f2d2a);
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+}
+
+.about-value-card p {
+  color: var(--gray-text, #5d6b67);
+  line-height: 1.7;
+  margin: 0;
+}
+
+.about-cta {
+  background-color: var(--surface-color, #ffffff);
+}
+
+.about-cta-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 26px;
+}
+
+.about-call-btn,
+.about-whatsapp-btn {
+  align-items: center;
+  border-radius: 8px;
+  color: white;
+  display: inline-flex;
+  font-weight: 750;
+  gap: 8px;
+  justify-content: center;
+  padding: 12px 24px;
+  text-decoration: none;
+}
+
+.about-call-btn {
+  background-color: var(--secondary-color, #d95d27);
+}
+
+.about-call-btn:hover {
+  background-color: var(--secondary-dark, #b9471a);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.about-whatsapp-btn {
+  background-color: #25d366;
+}
+
+.about-whatsapp-btn:hover {
+  background-color: #20ba5f;
+  color: white;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 992px) {
+  .about-title {
+    font-size: 2.6rem;
+  }
+
+  .about-story,
+  .about-values,
+  .about-cta {
+    padding: 64px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-header {
+    padding: 64px 16px;
+  }
+
+  .about-title {
+    font-size: 2.15rem;
+  }
+
+  .about-subtitle {
+    font-size: 1rem;
+  }
+
+  .about-story,
+  .about-values,
+  .about-cta {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .about-story-content h2,
+  .about-section-heading h2,
+  .about-cta h2 {
+    font-size: 1.8rem;
+  }
+
+  .about-cta-buttons {
+    flex-direction: column;
+  }
+
+  .about-call-btn,
+  .about-whatsapp-btn {
+    width: 100%;
+  }
+}

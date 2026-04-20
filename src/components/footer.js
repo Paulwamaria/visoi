@@ -48,6 +48,7 @@ const Footer = () => {
                             <ul className="footer-links">
                                 <li><a href="/">Home</a></li>
                                 <li><a href="/gallery">Gallery</a></li>
+                                <li><a href="/about">About Us</a></li>
                                 <li><a href="/contacts">Contact Us</a></li>
                                 <li><a href="https://wa.me/254712550433">WhatsApp Chat</a></li>
                             </ul>
