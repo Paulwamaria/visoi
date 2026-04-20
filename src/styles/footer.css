@@ -316,12 +316,23 @@
   }
 
   .machines-gallery {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scroll-snap-type: x mandatory;
+  }
+
+  .machines-gallery > [class*="col"] {
+    flex: 0 0 145px;
+    max-width: 145px;
+    margin-bottom: 0 !important;
+    scroll-snap-align: start;
   }
 
   .machine-thumb {
-    height: 80px;
+    height: 116px;
   }
 
   .featured-title {
