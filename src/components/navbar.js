@@ -14,7 +14,7 @@ class Mynavbar extends React.Component {
 					<Navbar expand="lg" className="navbar-professional sticky-top">
 						<Container>
 							<Navbar.Brand href="/" className="brand-text">
-								<i className="fa fa-cog text-primary mr-2"></i>
+								<img src="/logo.png" alt="Visoi Machineries logo" className="brand-logo" />
 								<span>VISOI</span>
 							</Navbar.Brand>
 							<Navbar.Toggle className="toggle-custom" aria-controls="basic-navbar-nav">

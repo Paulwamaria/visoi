@@ -20,7 +20,8 @@ const Footer = () => {
                     <MDBCol md="4" className="mb-4 mb-md-0">
                         <div className="footer-section">
                             <h5 className="footer-section-title">
-                                <i className="fa fa-cog mr-2"></i>VISOI MACHINERIES
+                                <img src="/logo.png" alt="Visoi Machineries logo" className="footer-logo" />
+                                VISOI MACHINERIES
                             </h5>
                             <p className="footer-description">
                                 Leading provider of premium agricultural machinery, maintenance, and fabrication services in Nakuru.

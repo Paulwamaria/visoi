@@ -21,6 +21,15 @@
   gap: 8px;
 }
 
+.brand-logo {
+  background-color: white;
+  border-radius: 8px;
+  height: 44px;
+  object-fit: contain;
+  padding: 4px;
+  width: 44px;
+}
+
 .brand-text:hover {
   transform: scale(1.05);
   color: var(--accent-color, #f0a128) !important;
@@ -151,6 +160,11 @@
 @media (max-width: 576px) {
   .brand-text {
     font-size: 1.1rem;
+  }
+
+  .brand-logo {
+    height: 38px;
+    width: 38px;
   }
 
   .social-link {
