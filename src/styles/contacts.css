@@ -1,0 +1,528 @@
+/* ============================================
+   PROFESSIONAL CONTACTS PAGE STYLES
+   ============================================ */
+
+.contacts-page {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+/* Header Section */
+.contacts-header {
+  background: linear-gradient(135deg, var(--primary-color, #1a5f7a) 0%, var(--primary-light, #2a8cb5) 100%);
+  color: white;
+  padding: 80px 30px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.contacts-header::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 400px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.contacts-header::after {
+  content: '';
+  position: absolute;
+  bottom: -50%;
+  left: -10%;
+  width: 300px;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.header-title {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 15px;
+  color: white;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 1;
+  animation: slideInDown 0.8s ease;
+}
+
+.header-subtitle {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  animation: slideInUp 0.8s ease 0.2s both;
+}
+
+/* Content Section */
+.contacts-content {
+  padding: 80px 30px;
+}
+
+/* Contact Cards */
+.contact-card,
+.team-card,
+.catalogue-card,
+.hours-card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: var(--shadow-md, 0 4px 12px rgba(0, 0, 0, 0.15));
+  transition: var(--transition, all 0.3s ease);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.contact-card:hover,
+.team-card:hover,
+.catalogue-card:hover,
+.hours-card:hover {
+  box-shadow: var(--shadow-lg, 0 8px 24px rgba(0, 0, 0, 0.2));
+  transform: translateY(-8px);
+}
+
+/* Card Icon */
+.card-icon {
+  background: linear-gradient(135deg, var(--primary-color, #1a5f7a) 0%, var(--primary-light, #2a8cb5) 100%);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  margin: 0 auto 20px;
+}
+
+/* Card Titles */
+.card-title {
+  font-size: 1.3rem;
+  color: var(--dark-text, #2c3e50);
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.card-description {
+  color: var(--gray-text, #7f8c8d);
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+}
+
+/* Contact Items */
+.contact-item {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border-color, #ecf0f1);
+  align-items: flex-start;
+}
+
+.contact-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.contact-item i {
+  font-size: 1.3rem;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.contact-item .label {
+  font-size: 0.85rem;
+  color: var(--gray-text, #7f8c8d);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0 0 4px 0;
+}
+
+.contact-item .value {
+  font-weight: 600;
+  color: var(--dark-text, #2c3e50);
+  font-size: 1rem;
+}
+
+.contact-item a.value {
+  color: var(--primary-color, #1a5f7a);
+}
+
+.contact-item a.value:hover {
+  color: var(--secondary-color, #ff6b35);
+  text-decoration: underline;
+}
+
+/* Social Buttons */
+.social-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.social-btn {
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: var(--transition, all 0.3s ease);
+  text-align: center;
+}
+
+.social-btn span {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.social-btn.facebook {
+  background-color: #3b5998;
+}
+
+.social-btn.instagram {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+.social-btn.youtube {
+  background-color: #ff0000;
+}
+
+.social-btn.whatsapp {
+  background-color: #25d366;
+}
+
+.social-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Action Buttons */
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.action-btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  transition: var(--transition, all 0.3s ease);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: white;
+}
+
+.call-btn {
+  background-color: var(--primary-color, #1a5f7a);
+}
+
+.call-btn:hover {
+  background-color: var(--primary-dark, #0f3d52);
+  transform: translateX(4px);
+}
+
+.email-btn {
+  background-color: var(--secondary-color, #ff6b35);
+}
+
+.email-btn:hover {
+  background-color: #ff5722;
+  transform: translateX(4px);
+}
+
+.whatsapp-btn {
+  background-color: #25d366;
+}
+
+.whatsapp-btn:hover {
+  background-color: #20ba5f;
+  transform: translateX(4px);
+}
+
+/* Team Card */
+.team-image {
+  width: 100%;
+  height: 250px;
+  background-color: var(--light-bg, #f8f9fa);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.team-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition, all 0.3s ease);
+}
+
+.team-card:hover .team-photo {
+  transform: scale(1.1);
+  filter: brightness(1.1);
+}
+
+.team-name {
+  color: var(--dark-text, #2c3e50);
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+
+.team-position {
+  color: var(--secondary-color, #ff6b35);
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+.team-bio {
+  color: var(--gray-text, #7f8c8d);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.team-contact-links {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.team-link {
+  width: 40px;
+  height: 40px;
+  background-color: var(--light-bg, #f8f9fa);
+  color: var(--primary-color, #1a5f7a);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  transition: var(--transition, all 0.3s ease);
+  text-decoration: none;
+}
+
+.team-link:hover {
+  background-color: var(--primary-color, #1a5f7a);
+  color: white;
+  transform: translateY(-3px);
+}
+
+/* Catalogue Card */
+.catalogue-image {
+  width: 100%;
+  height: 250px;
+  background-color: var(--light-bg, #f8f9fa);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.catalogue-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition, all 0.3s ease);
+}
+
+.catalogue-card:hover .catalogue-photo {
+  transform: scale(1.1) rotate(2deg);
+}
+
+.catalogue-title {
+  color: var(--dark-text, #2c3e50);
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+}
+
+.catalogue-description {
+  color: var(--gray-text, #7f8c8d);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.btn-download {
+  background-color: var(--secondary-color, #ff6b35);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: var(--transition, all 0.3s ease);
+}
+
+.btn-download:hover {
+  background-color: #ff5722;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 107, 53, 0.3);
+}
+
+/* Hours Card */
+.hours-list {
+  margin-bottom: 20px;
+}
+
+.hour-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border-color, #ecf0f1);
+  align-items: center;
+}
+
+.hour-item:last-child {
+  border-bottom: none;
+}
+
+.hour-item .day {
+  font-weight: 600;
+  color: var(--dark-text, #2c3e50);
+  font-size: 0.95rem;
+}
+
+.hour-item .time {
+  color: var(--primary-color, #1a5f7a);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.hours-note {
+  background-color: var(--light-bg, #f8f9fa);
+  padding: 12px;
+  border-radius: 6px;
+  color: var(--gray-text, #7f8c8d);
+  font-size: 0.9rem;
+  margin: 0;
+  border-left: 3px solid var(--secondary-color, #ff6b35);
+}
+
+/* Animations */
+@keyframes slideInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .contacts-header {
+    padding: 60px 20px;
+  }
+
+  .header-title {
+    font-size: 2.5rem;
+  }
+
+  .header-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .contacts-content {
+    padding: 60px 20px;
+  }
+
+  .social-buttons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .contacts-header {
+    padding: 50px 15px;
+  }
+
+  .header-title {
+    font-size: 2rem;
+  }
+
+  .header-subtitle {
+    font-size: 1rem;
+  }
+
+  .contacts-content {
+    padding: 40px 15px;
+  }
+
+  .team-image,
+  .catalogue-image {
+    height: 200px;
+  }
+
+  .social-buttons {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .action-buttons {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-title {
+    font-size: 1.7rem;
+  }
+
+  .team-image,
+  .catalogue-image {
+    height: 150px;
+  }
+
+  .team-name {
+    font-size: 1.2rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .social-buttons {
+    grid-template-columns: 1fr;
+  }
+
+  .social-btn {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .social-btn span {
+    text-align: left;
+  }
+}

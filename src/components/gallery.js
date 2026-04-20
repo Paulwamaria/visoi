@@ -1,13 +1,18 @@
 import React from "react"
-import Carousel from "../components/carousel"
 import CarouselPage from "./carousel"
+import "../styles/gallery.css"
+
 class Gallery extends React.Component {
 	render() {
 		return (
-			<div className="container-fluid bg-primary">
-
-				<CarouselPage/>
-
+			<div className="gallery-page">
+				<div className="gallery-header">
+					<h1 className="gallery-title funnyfonts">Gallery</h1>
+					<p className="gallery-subtitle sofia">Explore Our Quality Machinery & Projects</p>
+				</div>
+				<div className="gallery-container">
+					<CarouselPage/>
+				</div>
 			</div>
 		)
 	}
