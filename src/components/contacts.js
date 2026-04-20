@@ -11,8 +11,8 @@ class Contacts extends React.Component {
 				{/* Header Section */}
 				<section className="contacts-header">
 					<Container>
-						<h1 className="header-title funnyfonts">Get In Touch</h1>
-						<p className="header-subtitle sofia">
+						<h1 className="header-title">Get In Touch</h1>
+						<p className="header-subtitle">
 							We'd love to hear from you! Reach out with any enquiries, quotations, or consultations.
 						</p>
 					</Container>
@@ -130,8 +130,8 @@ class Contacts extends React.Component {
 										<img src={avatar} alt="Joseph Mburu" className="team-photo" />
 									</div>
 									<Card.Body className="text-center">
-										<h4 className="team-name funnyfonts">Joseph Mburu</h4>
-										<p className="team-position sofia">Chief Engineer & Founder</p>
+										<h4 className="team-name">Joseph Mburu</h4>
+										<p className="team-position">Chief Engineer & Founder</p>
 										<p className="team-bio">
 											With years of expertise in agricultural machinery fabrication and maintenance.
 										</p>
@@ -157,7 +157,7 @@ class Contacts extends React.Component {
 										<img src={catalogue} alt="Product Catalogue" className="catalogue-photo" />
 									</div>
 									<Card.Body className="text-center">
-										<h4 className="catalogue-title funnyfonts">Product Catalogue</h4>
+										<h4 className="catalogue-title">Product Catalogue</h4>
 										<p className="catalogue-description">
 											Browse our complete range of agricultural machinery and services
 										</p>

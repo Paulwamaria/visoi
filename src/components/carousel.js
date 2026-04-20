@@ -132,7 +132,7 @@ const CarouselPage = () => {
                   </div>
                   <Carousel.Caption>
                     <div className="carousel-caption-content">
-                      <h2 className="carousel-title funnyfonts">
+                      <h2 className="carousel-title">
                         {machine.name}
                       </h2>
                       <p className="carousel-description">
@@ -169,7 +169,7 @@ const CarouselPage = () => {
       <section className="machines-grid section-padding">
         <Container>
           <div className="section-title mb-5">
-            <h2 className="funnyfonts">Our Machinery Collection</h2>
+            <h2>Our Machinery Collection</h2>
             <p className="section-desc">
               Professional agricultural equipment for every need
             </p>
@@ -208,7 +208,7 @@ const CarouselPage = () => {
       {/* CTA Banner */}
       <section className="cta-banner">
         <Container className="text-center">
-          <h2 className="banner-title funnyfonts mb-4">
+          <h2 className="banner-title mb-4">
             Looking for Quality Machinery?
           </h2>
           <p className="banner-subtitle mb-4">

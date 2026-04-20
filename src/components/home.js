@@ -7,6 +7,7 @@ import shellerCollection from "../assets/images/shellerCollection.jpg";
 import mixer from "../assets/images/halftoneMixer.jpg";
 import carpetDrier from "../assets/images/carpetDrier.jpg";
 import charcoalPress from "../assets/images/charcoalscrewpress.jpg";
+import videoThumbnail from "../assets/images/IMG_20220607_121126.jpg";
 import "../styles/home.css";
 
 class Home extends React.Component {
@@ -91,7 +92,7 @@ class Home extends React.Component {
             <div className="container">
               <div className="home-hero-content">
                 <span className="hero-eyebrow">Visoi Machineries</span>
-                <h1 className="home-hero-title funnyfonts">
+                <h1 className="home-hero-title">
                   Agricultural Machines Built for Real Work
                 </h1>
                 <p className="home-hero-copy">
@@ -155,7 +156,7 @@ class Home extends React.Component {
           <div className="container">
             <div className="section-heading">
               <span className="section-kicker">Machines</span>
-              <h2 className="funnyfonts">Ready for Farm and Workshop Jobs</h2>
+              <h2>Ready for Farm and Workshop Jobs</h2>
               <p>
                 Choose from locally supported machines with delivery,
                 installation, and operator guidance available.
@@ -197,7 +198,7 @@ class Home extends React.Component {
             <div className="row align-items-center">
               <div className="col-lg-5 mb-4 mb-lg-0">
                 <span className="section-kicker">Support</span>
-                <h2 className="funnyfonts">Built, Delivered, and Supported</h2>
+                <h2>Built, Delivered, and Supported</h2>
                 <p>
                   Get help choosing the right machine size, engine type, and
                   setup for your workload. After delivery, installation and
@@ -218,7 +219,7 @@ class Home extends React.Component {
                     width="100%"
                     height="100%"
                     controls
-                    light={true}
+                    light={videoThumbnail}
                   />
                 </div>
               </div>
@@ -230,7 +231,7 @@ class Home extends React.Component {
           <div className="container">
             <div className="section-heading text-center">
               <span className="section-kicker">Order Process</span>
-              <h2 className="funnyfonts">From Inquiry to Installation</h2>
+              <h2>From Inquiry to Installation</h2>
             </div>
             <div className="row">
               {steps.map(([number, title, text]) => (
@@ -248,7 +249,7 @@ class Home extends React.Component {
 
         <section className="cta-section">
           <div className="container text-center">
-            <h2 className="cta-title funnyfonts mb-4">
+            <h2 className="cta-title mb-4">
               Need a Machine Today?
             </h2>
             <p className="cta-subtitle mb-5">

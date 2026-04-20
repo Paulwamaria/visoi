@@ -7,8 +7,8 @@ class Gallery extends React.Component {
 		return (
 			<div className="gallery-page">
 				<div className="gallery-header">
-					<h1 className="gallery-title funnyfonts">Gallery</h1>
-					<p className="gallery-subtitle sofia">Explore Our Quality Machinery & Projects</p>
+					<h1 className="gallery-title">Gallery</h1>
+					<p className="gallery-subtitle">Explore Our Quality Machinery & Projects</p>
 				</div>
 				<div className="gallery-container">
 					<CarouselPage/>

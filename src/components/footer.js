@@ -19,7 +19,7 @@ const Footer = () => {
                     {/* Company Info */}
                     <MDBCol md="4" className="mb-4 mb-md-0">
                         <div className="footer-section">
-                            <h5 className="footer-section-title funnyfonts">
+                            <h5 className="footer-section-title">
                                 <i className="fa fa-cog mr-2"></i>VISOI MACHINERIES
                             </h5>
                             <p className="footer-description">
@@ -41,7 +41,7 @@ const Footer = () => {
                     {/* Quick Links */}
                     <MDBCol md="4" className="mb-4 mb-md-0">
                         <div className="footer-section">
-                            <h5 className="footer-section-title funnyfonts">
+                            <h5 className="footer-section-title">
                                 <i className="fa fa-link mr-2"></i>Quick Links
                             </h5>
                             <ul className="footer-links">
@@ -56,7 +56,7 @@ const Footer = () => {
                     {/* Follow Us */}
                     <MDBCol md="4">
                         <div className="footer-section">
-                            <h5 className="footer-section-title funnyfonts">
+                            <h5 className="footer-section-title">
                                 <i className="fa fa-share-alt mr-2"></i>Follow Us
                             </h5>
                             <div className="footer-social-links">
@@ -82,7 +82,7 @@ const Footer = () => {
 
                 {/* Featured Machines */}
                 <div className="featured-machines">
-                    <h5 className="featured-title funnyfonts text-center mb-4">
+                    <h5 className="featured-title text-center mb-4">
                         <i className="fa fa-wrench mr-2"></i>Featured Machines
                     </h5>
                     <MDBRow className="machines-gallery">
