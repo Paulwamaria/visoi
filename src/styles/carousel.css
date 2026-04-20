@@ -597,11 +597,12 @@
   }
 
   .carousel-description {
-    font-size: 0.9rem;
+    display: none;
   }
 
   .carousel-caption {
-    padding-bottom: 30px;
+    top: auto;
+    padding: 0 20px 28px;
   }
 
   .machine-image-wrapper {
@@ -686,11 +687,12 @@
   }
 
   .carousel-description {
-    font-size: 0.85rem;
+    display: none;
   }
 
   .carousel-caption {
-    padding-bottom: 30px;
+    top: auto;
+    padding: 0 16px 26px;
   }
 
   .carousel-indicators {
