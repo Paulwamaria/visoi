@@ -7,6 +7,7 @@ import bigChopper from "../assets/images/bigchopper.jpg";
 import chaff2 from "../assets/images/chaff2.jpg";
 import smChopper from "../assets/images/smallchopper.jpg";
 import sheller from "../assets/images/sheller1.jpeg"
+import carpetDrier from "../assets/images/carpetDrier.jpg";
 import "../styles/carousel.css"
 
 const CarouselPage = () => {
@@ -59,6 +60,13 @@ const CarouselPage = () => {
 			image: sheller,
 			description: "Professional grain shelling machine for rapid and efficient removal of grain from husks. Perfect for commercial operations.",
 			features: ["Rapid operation", "High capacity", "Durable construction"]
+		},
+		{
+			id: 8,
+			name: "Carpet Drier",
+			image: carpetDrier,
+			description: "Professional carpet drying equipment designed for efficient moisture removal and carpet restoration. Perfect for cleaning services and restoration projects.",
+			features: ["Fast drying", "Professional grade", "Easy to use"]
 		}
 	];
 

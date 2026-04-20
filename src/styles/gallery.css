@@ -61,7 +61,7 @@
 }
 
 .gallery-container {
-  padding: 60px 30px;
+  padding: 20px 15px;
 }
 
 /* Carousel Styling */
@@ -192,7 +192,7 @@
   }
 
   .gallery-container {
-    padding: 40px 20px;
+    padding: 15px 10px;
   }
 }
 
@@ -218,7 +218,7 @@
   }
 
   .gallery-container {
-    padding: 30px 15px;
+    padding: 15px 10px;
   }
 
   .carousel-control-prev,
