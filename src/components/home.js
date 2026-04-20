@@ -19,7 +19,7 @@ class Home extends React.Component {
 									We provide top-quality fabrication, maintenance, and installation services for all your agricultural machinery needs.
 								</p>
 								<div className="hero-buttons mt-4">
-									<a href="/contacts" className="btn btn-primary btn-lg">
+									<a href="/contacts" className="btn-secondary  btn-lg">
 										<i className="fa fa-phone mr-2"></i>Get in Touch
 									</a>
 									<a href="/gallery" className="btn btn-secondary btn-lg">
@@ -30,6 +30,38 @@ class Home extends React.Component {
 							<div className="col-lg-6 col-md-12">
 								<div className="hero-image-container">
 									<img src={Posho} alt="Posho Mill" className="hero-image"/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				{/* Statistics Section */}
+				<section className="stats-section section-padding">
+					<div className="container">
+						<div className="row text-center">
+							<div className="col-md-3 col-sm-6 mb-4">
+								<div className="stat-item">
+									<h2 className="stat-number">15+</h2>
+									<p className="stat-label">Years Experience</p>
+								</div>
+							</div>
+							<div className="col-md-3 col-sm-6 mb-4">
+								<div className="stat-item">
+									<h2 className="stat-number">500+</h2>
+									<p className="stat-label">Machines Delivered</p>
+								</div>
+							</div>
+							<div className="col-md-3 col-sm-6 mb-4">
+								<div className="stat-item">
+									<h2 className="stat-number">200+</h2>
+									<p className="stat-label">Happy Customers</p>
+								</div>
+							</div>
+							<div className="col-md-3 col-sm-6 mb-4">
+								<div className="stat-item">
+									<h2 className="stat-number">24/7</h2>
+									<p className="stat-label">Support Available</p>
 								</div>
 							</div>
 						</div>
@@ -83,6 +115,84 @@ class Home extends React.Component {
 										controls
 										light={true}
 									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				{/* Benefits Section */}
+				<section className="benefits-section section-padding">
+					<div className="container">
+						<div className="section-title text-center mb-5">
+							<h2 className="funnyfonts">Why Choose Visoi Machineries?</h2>
+						</div>
+						<div className="row">
+							<div className="col-lg-4 mb-4">
+								<div className="benefit-card text-center">
+									<div className="benefit-icon">
+										<i className="fa fa-shield text-primary"></i>
+									</div>
+									<h4>Quality Guaranteed</h4>
+									<p>All our machines come with comprehensive warranty and quality assurance.</p>
+								</div>
+							</div>
+							<div className="col-lg-4 mb-4">
+								<div className="benefit-card text-center">
+									<div className="benefit-icon">
+										<i className="fa fa-clock-o text-primary"></i>
+									</div>
+									<h4>Fast Delivery</h4>
+									<p>Quick turnaround times with reliable delivery across Kenya.</p>
+								</div>
+							</div>
+							<div className="col-lg-4 mb-4">
+								<div className="benefit-card text-center">
+									<div className="benefit-icon">
+										<i className="fa fa-users text-primary"></i>
+									</div>
+									<h4>Expert Support</h4>
+									<p>Professional installation, training, and ongoing maintenance support.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				{/* Process Section */}
+				<section className="process-section section-padding bg-light">
+					<div className="container">
+						<div className="section-title text-center mb-5">
+							<h2 className="funnyfonts">How It Works</h2>
+							<p>Simple process from inquiry to installation</p>
+						</div>
+						<div className="row">
+							<div className="col-lg-3 col-md-6 mb-4">
+								<div className="process-step text-center">
+									<div className="step-number">1</div>
+									<h4>Contact Us</h4>
+									<p>Get in touch with your requirements</p>
+								</div>
+							</div>
+							<div className="col-lg-3 col-md-6 mb-4">
+								<div className="process-step text-center">
+									<div className="step-number">2</div>
+									<h4>Consultation</h4>
+									<p>We assess your needs and provide recommendations</p>
+								</div>
+							</div>
+							<div className="col-lg-3 col-md-6 mb-4">
+								<div className="process-step text-center">
+									<div className="step-number">3</div>
+									<h4>Delivery & Installation</h4>
+									<p>Professional delivery and setup</p>
+								</div>
+							</div>
+							<div className="col-lg-3 col-md-6 mb-4">
+								<div className="process-step text-center">
+									<div className="step-number">4</div>
+									<h4>Training & Support</h4>
+									<p>Complete training and ongoing support</p>
 								</div>
 							</div>
 						</div>

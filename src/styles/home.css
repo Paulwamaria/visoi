@@ -81,6 +81,8 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
 .hero-buttons .btn-primary {
@@ -276,6 +278,123 @@
   background-color: #20ba5f;
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(37, 211, 102, 0.4);
+}
+
+/* Statistics Section */
+.stats-section {
+  background-color: var(--primary-color, #1a5f7a);
+  color: white;
+  padding: 60px 30px;
+}
+
+.stat-item {
+  padding: 20px;
+  transition: var(--transition, all 0.3s ease);
+}
+
+.stat-item:hover {
+  transform: translateY(-5px);
+}
+
+.stat-number {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+  color: white;
+  transition: var(--transition, all 0.3s ease);
+}
+
+.stat-label {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  font-weight: 500;
+}
+
+/* Benefits Section */
+.benefits-section {
+  background-color: white;
+  padding: 80px 30px;
+}
+
+.benefit-card {
+  padding: 40px 20px;
+  border-radius: 12px;
+  box-shadow: var(--shadow, 0 4px 12px rgba(0, 0, 0, 0.1));
+  transition: var(--transition, all 0.3s ease);
+  height: 100%;
+}
+
+.benefit-card:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-lg, 0 8px 24px rgba(0, 0, 0, 0.15));
+}
+
+.benefit-icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: var(--primary-color, #1a5f7a);
+}
+
+.benefit-card h4 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: var(--dark-text, #2c3e50);
+  font-weight: 600;
+}
+
+.benefit-card p {
+  color: var(--gray-text, #7f8c8d);
+  line-height: 1.6;
+}
+
+/* Process Section */
+.process-section {
+  background-color: #f8f9fa;
+  padding: 80px 30px;
+}
+
+.process-step {
+  padding: 30px 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: var(--shadow, 0 4px 12px rgba(0, 0, 0, 0.1));
+  transition: var(--transition, all 0.3s ease);
+  height: 100%;
+  position: relative;
+}
+
+.process-step:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg, 0 8px 24px rgba(0, 0, 0, 0.15));
+}
+
+.step-number {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, var(--primary-color, #1a5f7a), var(--primary-light, #2a8cb5));
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 auto 20px;
+  box-shadow: 0 4px 12px rgba(26, 95, 122, 0.3);
+}
+
+.process-step h4 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: var(--dark-text, #2c3e50);
+  font-weight: 600;
+}
+
+.process-step p {
+  color: var(--gray-text, #7f8c8d);
+  line-height: 1.6;
+  margin: 0;
 }
 
 /* Animations */
