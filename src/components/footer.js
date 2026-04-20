@@ -3,7 +3,7 @@ import {MDBCol, MDBContainer, MDBRow} from 'mdbreact'
 import smChopper from "../assets/images/smallchopper.jpg"
 import bgChopper from "../assets/images/bigchopper.jpg"
 import chuffCutter from "../assets/images/chaffcutter.jpg"
-import chuff from "../assets/gallery/combined/double.jpg"
+import chuff from "../assets/images/huller4.jpg"
 import happyClient from "../assets/images/capture1.jpg"
 import double from "../assets/gallery/combined/double.jpg"
 import "../styles/footer.css"

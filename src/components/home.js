@@ -7,7 +7,6 @@ import shellerCollection from "../assets/images/shellerCollection.jpg";
 import mixer from "../assets/images/halftoneMixer.jpg";
 import carpetDrier from "../assets/images/carpetDrier.jpg";
 import charcoalPress from "../assets/images/charcoalscrewpress.jpg";
-import videoThumbnail from "../assets/images/IMG_20220607_121126.jpg";
 import "../styles/home.css";
 
 class Home extends React.Component {
@@ -219,7 +218,7 @@ class Home extends React.Component {
                     width="100%"
                     height="100%"
                     controls
-                    light={videoThumbnail}
+                    light={true}
                   />
                 </div>
               </div>
