@@ -3,12 +3,12 @@
    ============================================ */
 
 .about-page {
-  background-color: var(--light-bg, #f6f8f5);
+  background-color: var(--light-bg, #f8f9fa);
   min-height: 100vh;
 }
 
 .about-header {
-  background: linear-gradient(135deg, var(--primary-color, #19624f) 0%, var(--primary-light, #2e8b70) 100%);
+  background: linear-gradient(135deg, var(--primary-color, #1a5f7a) 0%, var(--primary-light, #2a8cb5) 100%);
   color: white;
   overflow: hidden;
   padding: 86px 30px;
@@ -45,7 +45,7 @@
 }
 
 .about-kicker {
-  color: var(--accent-color, #f0a128);
+  color: var(--accent-color, #ffa500);
   display: inline-block;
   font-size: 0.9rem;
   font-weight: 800;
@@ -95,7 +95,7 @@
 .about-story-content h2,
 .about-section-heading h2,
 .about-cta h2 {
-  color: var(--dark-text, #1f2d2a);
+  color: var(--dark-text, #2c3e50);
   font-size: 2.25rem;
   font-weight: 850;
   line-height: 1.18;
@@ -104,7 +104,7 @@
 
 .about-story-content p,
 .about-cta p {
-  color: var(--gray-text, #5d6b67);
+  color: var(--gray-text, #7f8c8d);
   font-size: 1.05rem;
   line-height: 1.8;
 }
@@ -116,21 +116,21 @@
 }
 
 .about-service-list li {
-  border-bottom: 1px solid var(--border-color, #dde6e1);
-  color: var(--dark-text, #1f2d2a);
+  border-bottom: 1px solid var(--border-color, #ecf0f1);
+  color: var(--dark-text, #2c3e50);
   font-weight: 650;
   padding: 13px 0;
 }
 
 .about-service-list li::before {
-  color: var(--success-color, #2f8f46);
+  color: var(--success-color, #27ae60);
   content: '\f058';
   font-family: FontAwesome;
   margin-right: 10px;
 }
 
 .about-values {
-  background-color: var(--light-bg, #f6f8f5);
+  background-color: var(--light-bg, #f8f9fa);
 }
 
 .about-section-heading {
@@ -141,7 +141,7 @@
 
 .about-value-card {
   background-color: var(--surface-color, #ffffff);
-  border-left: 4px solid var(--secondary-color, #d95d27);
+  border-left: 4px solid var(--secondary-color, #ff6b35);
   border-radius: 8px;
   box-shadow: var(--shadow-sm, 0 2px 8px rgba(0, 0, 0, 0.1));
   height: 100%;
@@ -155,19 +155,19 @@
 }
 
 .about-value-card i {
-  color: var(--primary-color, #19624f);
+  color: var(--primary-color, #1a5f7a);
   font-size: 2rem;
   margin-bottom: 18px;
 }
 
 .about-value-card h3 {
-  color: var(--dark-text, #1f2d2a);
+  color: var(--dark-text, #2c3e50);
   font-size: 1.25rem;
   margin-bottom: 12px;
 }
 
 .about-value-card p {
-  color: var(--gray-text, #5d6b67);
+  color: var(--gray-text, #7f8c8d);
   line-height: 1.7;
   margin: 0;
 }
@@ -197,11 +197,11 @@
 }
 
 .about-call-btn {
-  background-color: var(--secondary-color, #d95d27);
+  background-color: var(--secondary-color, #ff6b35);
 }
 
 .about-call-btn:hover {
-  background-color: var(--secondary-dark, #b9471a);
+  background-color: var(--secondary-dark, #ff5722);
   color: white;
   transform: translateY(-2px);
 }

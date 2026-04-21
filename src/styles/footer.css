@@ -3,11 +3,11 @@
    ============================================ */
 
 .footer-professional {
-  background-color: var(--dark-text, #1f2d2a);
-  color: #dde6e1;
+  background-color: var(--dark-text, #2c3e50);
+  color: #ecf0f1;
   padding-top: 60px;
   margin-top: 80px;
-  border-top: 1px solid var(--primary-color, #19624f);
+  border-top: 1px solid var(--primary-color, #1a5f7a);
 }
 
 /* Footer Content */
@@ -28,7 +28,7 @@
   font-weight: 700;
   letter-spacing: 0;
   padding-bottom: 10px;
-  border-bottom: 2px solid var(--secondary-color, #d95d27);
+  border-bottom: 2px solid var(--secondary-color, #ff6b35);
   display: inline-flex;
   gap: 10px;
 }
@@ -51,14 +51,14 @@
 
 /* Quick Contact */
 .footer-contact-quick p {
-  color: #dde6e1;
+  color: #ecf0f1;
   font-size: 0.95rem;
   margin-bottom: 12px;
   transition: var(--transition, all 0.3s ease);
 }
 
 .footer-contact-quick a {
-  color: var(--secondary-color, #d95d27);
+  color: var(--secondary-color, #ff6b35);
   text-decoration: none;
   font-weight: 500;
   transition: var(--transition, all 0.3s ease);
@@ -103,7 +103,7 @@
 }
 
 .footer-links a:hover {
-  color: var(--secondary-color, #d95d27);
+  color: var(--secondary-color, #ff6b35);
 }
 
 .footer-links a:hover::before {
@@ -121,7 +121,7 @@
 .social-link-footer {
   width: 45px;
   height: 45px;
-  background-color: var(--primary-color, #19624f);
+  background-color: var(--primary-color, #1a5f7a);
   color: white;
   border-radius: 50%;
   display: flex;
@@ -133,7 +133,7 @@
 }
 
 .social-link-footer:hover {
-  background-color: var(--secondary-color, #d95d27);
+  background-color: var(--secondary-color, #ff6b35);
   transform: translateY(-5px) rotate(10deg);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
@@ -177,8 +177,8 @@
 }
 
 .machine-thumb:hover {
-  border-color: var(--secondary-color, #d95d27);
-  box-shadow: 0 8px 20px rgba(217, 93, 39, 0.3);
+  border-color: var(--secondary-color, #ff6b35);
+  box-shadow: 0 8px 20px rgba(255, 107, 53, 0.3);
   transform: scale(1.05);
 }
 
@@ -209,15 +209,15 @@
 }
 
 .footer-copyright strong {
-  color: var(--secondary-color, #d95d27);
+  color: var(--secondary-color, #ff6b35);
 }
 
 .footer-credit {
-  color: #dde6e1;
+  color: #ecf0f1;
 }
 
 .footer-credit .text-danger {
-  color: #c9483b !important;
+  color: #e74c3c !important;
   animation: heartbeat 0.6s infinite;
 }
 

@@ -3,13 +3,13 @@
    ============================================ */
 
 .contacts-page {
-  background-color: #f6f8f5;
+  background-color: #f8f9fa;
   min-height: 100vh;
 }
 
 /* Header Section */
 .contacts-header {
-  background: linear-gradient(135deg, var(--primary-color, #19624f) 0%, var(--primary-light, #2e8b70) 100%);
+  background: linear-gradient(135deg, var(--primary-color, #1a5f7a) 0%, var(--primary-light, #2a8cb5) 100%);
   color: white;
   padding: 80px 30px;
   text-align: center;
@@ -92,7 +92,7 @@
 
 /* Card Icon */
 .card-icon {
-  background: linear-gradient(135deg, var(--primary-color, #19624f) 0%, var(--primary-light, #2e8b70) 100%);
+  background: linear-gradient(135deg, var(--primary-color, #1a5f7a) 0%, var(--primary-light, #2a8cb5) 100%);
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -107,13 +107,13 @@
 /* Card Titles */
 .card-title {
   font-size: 1.3rem;
-  color: var(--dark-text, #1f2d2a);
+  color: var(--dark-text, #2c3e50);
   margin-bottom: 20px;
   font-weight: 700;
 }
 
 .card-description {
-  color: var(--gray-text, #5d6b67);
+  color: var(--gray-text, #7f8c8d);
   font-size: 0.95rem;
   margin-bottom: 20px;
 }
@@ -124,7 +124,7 @@
   gap: 15px;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid var(--border-color, #dde6e1);
+  border-bottom: 1px solid var(--border-color, #ecf0f1);
   align-items: flex-start;
 }
 
@@ -142,7 +142,7 @@
 
 .contact-item .label {
   font-size: 0.85rem;
-  color: var(--gray-text, #5d6b67);
+  color: var(--gray-text, #7f8c8d);
   text-transform: uppercase;
   letter-spacing: 0;
   margin: 0 0 4px 0;
@@ -150,16 +150,16 @@
 
 .contact-item .value {
   font-weight: 600;
-  color: var(--dark-text, #1f2d2a);
+  color: var(--dark-text, #2c3e50);
   font-size: 1rem;
 }
 
 .contact-item a.value {
-  color: var(--primary-color, #19624f);
+  color: var(--primary-color, #1a5f7a);
 }
 
 .contact-item a.value:hover {
-  color: var(--secondary-color, #d95d27);
+  color: var(--secondary-color, #ff6b35);
   text-decoration: underline;
 }
 
@@ -233,20 +233,20 @@
 }
 
 .call-btn {
-  background-color: var(--primary-color, #19624f);
+  background-color: var(--primary-color, #1a5f7a);
 }
 
 .call-btn:hover {
-  background-color: var(--primary-dark, #102b25);
+  background-color: var(--primary-dark, #0f3d52);
   transform: translateX(4px);
 }
 
 .email-btn {
-  background-color: var(--secondary-color, #d95d27);
+  background-color: var(--secondary-color, #ff6b35);
 }
 
 .email-btn:hover {
-  background-color: #b9471a;
+  background-color: #ff5722;
   transform: translateX(4px);
 }
 
@@ -263,7 +263,7 @@
 .team-image {
   width: 100%;
   height: 250px;
-  background-color: var(--light-bg, #f6f8f5);
+  background-color: var(--light-bg, #f8f9fa);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -283,19 +283,19 @@
 }
 
 .team-name {
-  color: var(--dark-text, #1f2d2a);
+  color: var(--dark-text, #2c3e50);
   font-size: 1.4rem;
   margin-bottom: 8px;
 }
 
 .team-position {
-  color: var(--secondary-color, #d95d27);
+  color: var(--secondary-color, #ff6b35);
   font-size: 1rem;
   margin-bottom: 12px;
 }
 
 .team-bio {
-  color: var(--gray-text, #5d6b67);
+  color: var(--gray-text, #7f8c8d);
   font-size: 0.95rem;
   line-height: 1.6;
   margin-bottom: 20px;
@@ -310,8 +310,8 @@
 .team-link {
   width: 40px;
   height: 40px;
-  background-color: var(--light-bg, #f6f8f5);
-  color: var(--primary-color, #19624f);
+  background-color: var(--light-bg, #f8f9fa);
+  color: var(--primary-color, #1a5f7a);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -322,7 +322,7 @@
 }
 
 .team-link:hover {
-  background-color: var(--primary-color, #19624f);
+  background-color: var(--primary-color, #1a5f7a);
   color: white;
   transform: translateY(-3px);
 }
@@ -331,7 +331,7 @@
 .catalogue-image {
   width: 100%;
   height: 250px;
-  background-color: var(--light-bg, #f6f8f5);
+  background-color: var(--light-bg, #f8f9fa);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -350,20 +350,20 @@
 }
 
 .catalogue-title {
-  color: var(--dark-text, #1f2d2a);
+  color: var(--dark-text, #2c3e50);
   font-size: 1.3rem;
   margin-bottom: 12px;
 }
 
 .catalogue-description {
-  color: var(--gray-text, #5d6b67);
+  color: var(--gray-text, #7f8c8d);
   font-size: 0.95rem;
   line-height: 1.6;
   margin-bottom: 20px;
 }
 
 .btn-download {
-  background-color: var(--secondary-color, #d95d27);
+  background-color: var(--secondary-color, #ff6b35);
   color: white;
   border: none;
   padding: 12px 24px;
@@ -373,9 +373,9 @@
 }
 
 .btn-download:hover {
-  background-color: #b9471a;
+  background-color: #ff5722;
   transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(217, 93, 39, 0.3);
+  box-shadow: 0 8px 16px rgba(255, 107, 53, 0.3);
 }
 
 /* Hours Card */
@@ -387,7 +387,7 @@
   display: flex;
   justify-content: space-between;
   padding: 12px 0;
-  border-bottom: 1px solid var(--border-color, #dde6e1);
+  border-bottom: 1px solid var(--border-color, #ecf0f1);
   align-items: center;
 }
 
@@ -397,24 +397,24 @@
 
 .hour-item .day {
   font-weight: 600;
-  color: var(--dark-text, #1f2d2a);
+  color: var(--dark-text, #2c3e50);
   font-size: 0.95rem;
 }
 
 .hour-item .time {
-  color: var(--primary-color, #19624f);
+  color: var(--primary-color, #1a5f7a);
   font-weight: 600;
   font-size: 0.95rem;
 }
 
 .hours-note {
-  background-color: var(--light-bg, #f6f8f5);
+  background-color: var(--light-bg, #f8f9fa);
   padding: 12px;
   border-radius: 6px;
-  color: var(--gray-text, #5d6b67);
+  color: var(--gray-text, #7f8c8d);
   font-size: 0.9rem;
   margin: 0;
-  border-left: 3px solid var(--secondary-color, #d95d27);
+  border-left: 3px solid var(--secondary-color, #ff6b35);
 }
 
 /* Animations */

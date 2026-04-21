@@ -3,7 +3,7 @@
    ============================================ */
 
 .navbar-professional {
-  background: linear-gradient(135deg, var(--primary-color, #19624f) 0%, var(--primary-light, #2e8b70) 100%);
+  background: linear-gradient(135deg, var(--primary-color, #1a5f7a) 0%, var(--primary-light, #2a8cb5) 100%);
   box-shadow: var(--shadow-md, 0 4px 12px rgba(0, 0, 0, 0.15));
   padding: 1rem 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -32,7 +32,7 @@
 
 .brand-text:hover {
   transform: scale(1.05);
-  color: var(--accent-color, #f0a128) !important;
+  color: var(--accent-color, #ffa500) !important;
 }
 
 .brand-text span {
@@ -85,7 +85,7 @@
   transform: translateX(-50%) scaleX(0);
   width: 80%;
   height: 2px;
-  background-color: var(--secondary-color, #d95d27);
+  background-color: var(--secondary-color, #ff6b35);
   transition: transform 0.3s ease;
   border-radius: 1px;
 }
@@ -122,9 +122,9 @@
 }
 
 .social-link:hover {
-  background-color: var(--secondary-color, #d95d27);
+  background-color: var(--secondary-color, #ff6b35);
   transform: translateY(-3px) rotate(5deg);
-  box-shadow: 0 4px 12px rgba(217, 93, 39, 0.4);
+  box-shadow: 0 4px 12px rgba(255, 107, 53, 0.4);
   color: white;
   text-decoration: none;
 }
