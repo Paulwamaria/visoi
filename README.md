@@ -6,7 +6,6 @@ A production business website focused on service presentation, branding, and lea
 
 https://visoimachineriesnakuru.netlify.app
 
-## 📸 Preview
 
 ## 📸 Preview
 
