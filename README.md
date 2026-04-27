@@ -1,4 +1,4 @@
-# Visoima Machineries
+# Visoi Machineries
 
 A production business website focused on service presentation, branding, and lead generation.
 
