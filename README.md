@@ -7,7 +7,7 @@ https://visoimachineriesnakuru.netlify.app
 
 ## 📸 Preview
 
-![Landing Page](./assets/gallery/landing.png)
+![Landing Page](./src/assets/gallery/landing.png)
 
 ## 🧠 Overview
 This project demonstrates building and deploying a real-world business website with a focus on clarity, responsiveness, and user flow.
